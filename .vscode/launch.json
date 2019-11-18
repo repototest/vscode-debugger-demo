@@ -36,15 +36,15 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": [
         "run-script",
-        "debugger"
+        "debugger" // 需跟package里定义的一致
       ],
-      "port": 9229
+      "port": 9229 // 需与package里定义的inspect-brk一致
     },
     {
       "type": "node",
       "request": "launch",
       "name": "Launch node program",
-      "runtimeVersion": "10.14.2",
+      "runtimeVersion": "10.14.2", // 与你当前使用的node版本一致，如果你是使用nvm进行node版本管理，则需要加上这个，否则可能找不到node
       "program": "${workspaceRoot}/app.js",
       "runtimeExecutable": "node"
     },
@@ -53,7 +53,7 @@
       "type": "chrome",
       "request": "launch",
       "sourceMaps": false,
-      "file": "${workspaceRoot}/chrome/index.html"
+      "file": "${workspaceRoot}/chrome/index.html" // 你的index.html地址
     },
   ]
 }
