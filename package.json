@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./npm/app.js",
-    "dev": "node ./npm/app.js"
+    "debugger": "node --nolazy --inspect-brk=9229 app.js"
   },
   "keywords": [],
   "author": "",

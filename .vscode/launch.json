@@ -21,7 +21,7 @@
       "name": "nodemon",
       "runtimeVersion": "10.14.2",
       "runtimeExecutable": "nodemon",
-      "args": ["${workspaceRoot}/node/app.js"],
+      "args": ["${workspaceRoot}/app.js"],
       "restart": true,
       "protocol": "inspector",    //相当于--inspect了
       "sourceMaps": true,
@@ -36,7 +36,7 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": [
         "run-script",
-        "start"
+        "debugger"
       ],
       "port": 9229
     },
@@ -45,7 +45,7 @@
       "request": "launch",
       "name": "Launch node program",
       "runtimeVersion": "10.14.2",
-      "program": "${workspaceRoot}/node/app.js",
+      "program": "${workspaceRoot}/app.js",
       "runtimeExecutable": "node"
     },
     {
