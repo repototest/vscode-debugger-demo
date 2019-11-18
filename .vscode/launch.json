@@ -5,6 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node",
+      "runtimeVersion": "10.14.2",
+      "request": "launch",
+      "name": "webpack debugger",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "build"],
+      "port": 9230
+    },
+    {
       "type": "chrome",
       "request": "launch",
       "name": "vuejs: chrome",
