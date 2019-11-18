@@ -17,7 +17,7 @@
       "args": [
         "${workspaceFolder}/index.ts"
       ]
-    }
+    },
     {
       "type": "node",
       "runtimeVersion": "10.14.2",
