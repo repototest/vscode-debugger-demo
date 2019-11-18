@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "node",
+      "request": "launch",
+      "name": "ts debugger",
+      "runtimeVersion": "10.14.2",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register"
+      ],
+      "args": [
+        "${workspaceFolder}/index.ts"
+      ]
+    }
+    {
+      "type": "node",
       "runtimeVersion": "10.14.2",
       "request": "launch",
       "name": "webpack debugger",
