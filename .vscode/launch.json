@@ -5,11 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceRoot}/node/app.js",
+      "runtimeExecutable": "/Users/isaacho/.nvm/versions/node/v10.14.2/bin/node"
+    },
+    {
       "name": "Launch index.html",
       "type": "chrome",
       "request": "launch",
       "sourceMaps": false,
-      "file": "${workspaceRoot}/index.html"
+      "file": "${workspaceRoot}/chrome/index.html"
     }
   ]
 }
