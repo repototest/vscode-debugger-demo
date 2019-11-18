@@ -1,0 +1,13 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./npm/app.js",
+    "dev": "node ./npm/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
